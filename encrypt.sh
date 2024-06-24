@@ -23,3 +23,5 @@ find "$relativePath" -type f ! -name "*.aes" | while read -r file; do
         echo "Encryption failed for: $file"
     fi
 done
+
+echo "Encryption complete."
